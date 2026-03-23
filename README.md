@@ -115,7 +115,7 @@ Edit `.env`:
 DB_HOST=localhost
 DB_PORT=3306
 DB_USER=root
-DB_PASSWORD=your_mysql_password
+DB_PASSWORD=987654321
 DB_NAME=rento_db
 JWT_SECRET=rento_super_secret_2024
 PORT=5000
@@ -140,20 +140,6 @@ npm start
 ```
 
 Frontend runs at: **http://localhost:3000**
-
----
-
-## 🔑 Default Login Credentials
-
-| Role     | Email                   | Password    |
-|----------|-------------------------|-------------|
-| Admin    | admin@rento.com         | Admin@1234  |
-| Staff    | staff@rento.com         | Admin@1234  |
-| Customer | customer@rento.com      | Admin@1234  |
-
----
-
-## ✅ Features Implemented (from SRS)
 
 ### Customer Features
 - [x] REQ-1.1 – Register with email, phone, password

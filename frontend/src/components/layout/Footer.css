@@ -1,0 +1,14 @@
+.footer { background: var(--secondary); color: rgba(255,255,255,.8); padding: 48px 0 0; margin-top: 80px; }
+.footer-container { max-width: 1200px; margin: 0 auto; padding: 0 20px 40px; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; }
+.footer-logo { font-family: var(--font-head); font-size: 24px; font-weight: 800; color: #fff; margin-bottom: 12px; }
+.footer-brand p { font-size: 13px; line-height: 1.7; opacity: .7; max-width: 260px; }
+.footer-links h4 { color: #fff; font-size: 14px; font-weight: 700; margin-bottom: 14px; }
+.footer-links a, .footer-links span { display: block; font-size: 13px; color: rgba(255,255,255,.65); margin-bottom: 8px; transition: var(--transition); }
+.footer-links a:hover { color: var(--primary-light); }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,.1); padding: 20px; text-align: center; font-size: 12px; opacity: .5; }
+@media (max-width: 768px) {
+  .footer-container { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 480px) {
+  .footer-container { grid-template-columns: 1fr; }
+}
